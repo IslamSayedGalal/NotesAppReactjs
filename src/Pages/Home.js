@@ -60,7 +60,7 @@ const Home = () => {
           <SingleNote key={item.id} item={item} refresher={refresher} />
         ))
         :
-        <h1 className='text-center display-1 fw-light text-seconday my-5'>
+        <h1 className='text-center display-1 fw-light text-light my-5'>
           <Frown size={100} /> No Notes. Create new one.
         </h1>
       }
